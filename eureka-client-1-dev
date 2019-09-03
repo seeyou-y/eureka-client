@@ -1,0 +1,8 @@
+#注册到注册中心
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+#默认端口号 8888
+server.port=8888
+# 实例名
+spring.application.name=config
+#配置git的远程仓库   https 暂时不支持ssh
+spring.cloud.config.server.git.uri=https://gitee.com/my_os_do_you_know/springcloud-config.git
